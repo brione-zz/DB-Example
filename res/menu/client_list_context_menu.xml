@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/context_edit" android:title="@string/ClientList_EditMenu"/>
+	<item android:id="@+id/context_new_visit" android:title="@string/ClientList_NewVisitMenu"/>
+	<item android:id="@+id/context_visits" android:title="@string/ClientList_VisitsMenu"/>>
+	<item android:id="@+id/context_notes" android:title="@string/ClientList_NotesMenu"/>
+	<item android:id="@+id/context_delete" android:title="@string/ClientList_DeleteMenu"/>
+</menu>

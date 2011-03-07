@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="revert">Revert</string>
+	<string name="cancel">Cancel</string>
+	<string name="delete">Delete</string>
+
+	<!-- Client Notes Activity  -->
+	<string name="ClientNotes_Header">Client Notes for %2$s, %1$s</string>
+	<string name="ClientNotes_Date">Date: </string>
+	<string name="ClientNotes_Date_Hint">Date Hint</string>
+	<string name="ClientNotes_Client">Client: </string>
+	<string name="ClientNotes_Client_Hint">Client Hint</string>
+	<string name="ClientNotes_Text">Text</string>
+	<string name="ClientNotes_Text_Hint">Text Hint</string>
+	<string name="ClientNotes_Add">Add</string>
+	<string name="ClientNotes_Edit">Edit</string>
+	<string name="ClientNotes_Delete">Delete</string>
+	<string name="ClientNotes_AddCopy">Add Copy</string>
+	<string name="ClientNotes_Ok">Save</string>
+	<string name="ClientNotes_Cancel">Cancel</string>
+	<string name="ClientNotes_Empty">No Notes</string>
+	<string name="ClientNotes_NameFormat">%2$s, %1$s</string>
+	<string name="ClientNotes_DateTimeFormat">%1$s %2$s</string>
+	
+	<!-- Notes Activity  -->
+	<string name="Notes_Header">Client Notes</string>
+	<string name="Notes_Date">Date: </string>
+	<string name="Notes_Date_Hint">Date Hint</string>
+	<string name="Notes_Client">Client: </string>
+	<string name="Notes_Client_Hint">Client Hint</string>
+	<string name="Notes_Text">Text</string>
+	<string name="Notes_Text_Hint">Text Hint</string>
+	<string name="Notes_Add">Add</string>
+	<string name="Notes_Edit">Edit</string>
+	<string name="Notes_Delete">Delete</string>
+	<string name="Notes_AddCopy">Add Copy</string>
+	<string name="Notes_Ok">Save</string>
+	<string name="Notes_Cancel">Cancel</string>
+	<string name="Notes_Empty">No Notes</string>
+	<string name="Notes_NameFormat">%2$s, %1$s</string>
+	<string name="Notes_DateTimeFormat">%1$s %2$s</string>
+	
+	<!-- Test stuff for Client Notes Activity -->
+	<string name="Temp.HideButtons.Menu">Hide Buttons</string>
+	
+	<!--  Note Editor -->
+	<string name="NoteEditor.Client">Client</string>
+	<string name="NoteEditor.Type">Type</string>
+	<string name="NoteEditor.Note">Note</string>
+	<string name="NoteEditor.Ok">Save</string>
+	<string name="NoteEditor.Cancel">Cancel</string>
+	<string name="NoteEditor_NameFormat">%2$s, %1$s</string>
+	<string name="NoteEditor_Editing">Editing Note</string>
+	<string name="NoteEditor_Adding">Adding New Note</string>
+		
+	<!--  Client Note Editor -->
+	<string name="ClientNoteEditor_Client">Client</string>
+	<string name="ClientNoteEditor_Type">Type</string>
+	<string name="ClientNoteEditor_Note">Note</string>
+	<string name="ClientNoteEditor_Ok">Save</string>
+	<string name="ClientNoteEditor_Cancel">Cancel</string>
+	<string name="ClientNoteEditor_NameFormat">%2$s, %1$s</string>
+	<string name="ClientNoteEditor_Editing">Editing note for %2$s, %1$s</string>
+	<string name="ClientNoteEditor_Adding">Adding Note for %2$s, %1$s</string>
+		
+	<!-- Temperature Editor -->
+	<string name="TemperatureEditor_Title">Temp: %2$s, %1$s : %3$s %4$s"</string>
+	<string name="TemperatureEditor_TemperatureHint">Enter Temperature</string>
+	<string name="TemperatureEditor_MaxExceeded">Instrument Max Exceeded</string>
+	<string name="TemperatureEditor_Ok">Save</string>
+	<string name="TemperatureEditor_Cancel">Cancel</string>
+	
+	<!-- BP Editor -->
+	<string name="BPEditor_Title">BP: %2$s, %1$s : %3$s %4$s</string>
+	<string name="BPEditor_SystolicHint">Enter Systolic</string>
+	<string name="BPEditor_DiastolicHint">Enter Diastolic</string>
+	<string name="BPEditor_Ok">Save</string>
+	<string name="BPEditor_Cancel">Cancel</string>
+    
+	<!-- Length Editor -->
+	<string name="LengthEditor_Title">Length: %2$s, %1$s : %3$s %4$s</string>
+	<string name="LengthEditor_LengthHint">Enter Length</string>
+	<string name="LengthEditor_Ok">Save</string>
+	<string name="LengthEditor_Cancel">Cancel</string>
+    
+	<!-- Pulse Editor -->
+	<string name="PulseEditor_Title">Pulse: %2$s, %1$s : %3$s %4$s</string>
+	<string name="PulseEditor_PulseHint">Enter Pulse</string>
+	<string name="PulseEditor_Ok">Save</string>
+	<string name="PulseEditor_Cancel">Cancel</string>
+    
+	<!-- Weight Editor -->
+	<string name="WeightEditor_Title">Weight: %2$s, %1$s : %3$s %4$s</string>
+	<string name="WeightEditor_WeightHint">Enter Weight</string>
+	<string name="WeightEditor_Ok">Save</string>
+	<string name="WeightEditor_Cancel">Cancel</string>
+    
+    <!-- PingService-related -->
+	<string name="ping_service_started">Ping Service Started</string>
+	<string name="ping_service_label">Pinger</string>
+	<string name="ping_service_stopped">Ping Service Stopped</string>
+	
+	<!-- Ping activity related -->
+	<string name="ping_tv_address">Address:</string>
+	<string name="ping_tv_port">Port:</string>
+	<string name="ping_tv_timeout">Timeout:</string>
+	<string name="ping_tv_count">Attempts:</string>
+	<string name="ping_tv_successes">Successes:</string>
+	<string name="ping_tv_status">Status:</string>
+	<string name="ping_btn_ping">Ping</string>
+	<string name="ping_status_init">Initialized</string>
+	<string name="ping_status_progress">In Progress...</string>
+	<string name="ping_status_complete">Complete</string>
+	<string name="ping_status_illegal_argument">Illegal Argument</string>
+	<string name="ping_status_io_error">Input/Output Error</string>
+	<string name="ping_status_unknown_host">Unknown Host</string>
+	<string name="ping_status_error">Status Error</string>	
+	
+	<!--  Client Editor -->
+	<string name="ClientEditor_SaveMenu">Save</string>
+	<string name="ClientEditor_CancelMenu">Cancel</string>
+	<string name="ClientEditor_DeleteMenu">Delete</string>
+	<string name="ClientEditor_ReallyDelete">Really Delete This?</string>
+	<string name="ClientEditor_Yes">Yes</string>
+	<string name="ClientEditor_No">No</string>
+	
+	<!-- Client List -->
+	<string name="ClientList_Title">Clients List</string>
+	<string name="ClientList_AddMenu">New</string>
+	<string name="ClientList_DeleteMenu">Delete</string>
+	<string name="ClientList_EditMenu">Edit</string>
+	<string name="ClientList_NewVisitMenu">New Visit</string>
+	<string name="ClientList_NotesMenu">Notes</string>
+	<string name="ClientList_VisitsMenu">Visits</string>
+	<string name="ClientList_NameFormat">%2$s, %1$s</string>
+	<string name="ClientList_ReallyDelete">Really Delete This?</string>
+	<string name="ClientList_Yes">Yes</string>
+	<string name="ClientList_No">No</string>
+	<string name="ClientList_Empty">No Clients - Use the Menu key to access the New menu</string>
+	
+	<!--  Client Note Type Editor -->
+	<string name="ClientNoteTypeEditor_Title">Client Note Type Editor</string>
+	<string name="ClientNoteTypeEditor_SaveMenu">Save</string>
+	<string name="ClientNoteTypeEditor_CancelMenu">Cancel</string>
+	<string name="ClientNoteTypeEditor_DeleteMenu">Delete</string>
+	<string name="ClientNoteTypeEditor_ReallyDelete">Really Delete This?</string>
+	<string name="ClientNoteTypeEditor_Yes">Yes</string>
+	<string name="ClientNoteTypeEditor_No">No</string>
+	
+	<!-- Client Note Type List -->
+	<string name="ClientNoteTypeList_Title">Client Note Types List</string>
+	<string name="ClientNoteTypeList_AddMenu">New</string>
+	<string name="ClientNoteTypeList_DeleteMenu">Delete</string>
+	<string name="ClientNoteTypeList_EditMenu">Edit</string>
+	<string name="ClientNoteTypeList_NotesMenu">Delete</string>
+	<string name="ClientNoteTypeList_EmptyText">Use the Menu key to access the New menu, or context menus for items</string>
+	<string name="ClientNoteTypeList_ReallyDelete">Really Delete This?</string>
+	<string name="ClientNoteTypeList_Yes">Yes</string>
+	<string name="ClientNoteTypeList_No">No</string>
+	
+	<!-- Client Visit Viewer -->
+	<string name="ClientVisitEditor_ClientHint">Client Hint</string>
+	<string name="ClientVisitEditor_DateHint">Date Hint</string>
+	<string name="ClientVisitEditor_DateTimeFormat">%1$s %2$s</string>
+	<string name="ClientVisitEditor_NameFormat">%2$s, %1$s</string>
+	<string name="ClientVisitEditor_Title">Client Visit</string>
+	<string name="ClientVisitEditor_Ok">Save</string>
+	<string name="ClientVisitEditor_Cancel">Cancel</string>
+	<string name="ClientVisitEditor_MeasureBP">BP</string>
+	<string name="ClientVisitEditor_MeasureLength">Length</string>
+	<string name="ClientVisitEditor_MeasurePulse">Pulse</string>
+	<string name="ClientVisitEditor_MeasureTemp">Temps</string>
+	<string name="ClientVisitEditor_MeasureWeight">Weight</string>
+	<string name="ClientVisitEditor_ShowBP">BP</string>
+	<string name="ClientVisitEditor_ShowLength">Length</string>
+	<string name="ClientVisitEditor_ShowPulse">Pulse</string>
+	<string name="ClientVisitEditor_ShowTemp">Temps</string>
+	<string name="ClientVisitEditor_ShowWeight">Weight</string>
+	<string name="ClientVisitEditor_EnterItems">Enter Measurements:</string>
+	<string name="ClientVisitEditor_ViewItems">Show Measurements:</string>
+	
+	<!-- Client Visit Items List -->
+	<string name="ClientVisitItemsList_Empty">No Records</string>
+	
+	<!-- Temperature Item -->
+	<string name="TemperatureItem_Temperature">Temperature</string>
+	<string name="TemperatureItem_Method">Method</string>
+	<string name="TemperatureItem_Date">Date</string>
+	<string name="TemperatureItem_Time">Time</string>
+
+	<!-- Length Item -->
+	<string name="LengthItem_Length">Length</string>
+	<string name="LengthItem_Date">Date</string>
+	<string name="LengthItem_Time">Time</string>
+
+	<!-- BP Item -->
+	<string name="BPItem_Systolic">Systolic</string>
+	<string name="BPItem_Diastolic">Diastolic</string>
+	<string name="BPItem_Date">Date</string>
+	<string name="BPItem_Time">Time</string>
+
+	<!-- Pulse Item -->
+	<string name="PulseItem_Pulse">Pulse</string>
+	<string name="PulseItem_Date">Date</string>
+	<string name="PulseItem_Time">Time</string>
+
+	<!-- Weight Item -->
+	<string name="WeightItem_Weight">Weight</string>
+	<string name="WeightItem_Date">Date</string>
+	<string name="WeightItem_Time">Time</string>
+
+	<!-- Client Visit List -->
+	<string name="ClientVisitList_TitleFormat">Visits for %2$s, %1$s</string>
+	<string name="ClientVisitList_DateTimeFormat">%1$s %2$s</string>
+	<string name="ClientVisitList_DeleteMenu">Delete</string>
+	<string name="ClientVisitList_EditMenu">Edit</string>
+	<string name="ClientVisitList_ReallyDelete">Really Delete This?</string>
+	<string name="ClientVisitList_Yes">Yes</string>
+	<string name="ClientVisitList_No">No</string>
+	<string name="ClientVisitList_Empty">No Visits</string>
+	
+	<!-- Visit List -->
+	<string name="VisitList_TitleFormat">Client Visits</string>
+	<string name="VisitList_NameFormat">%2$s, %1$s</string>
+	<string name="VisitList_DateTimeFormat">%1$s %2$s</string>
+	<string name="VisitList_DeleteMenu">Delete</string>
+	<string name="VisitList_EditMenu">Edit</string>
+	<string name="VisitList_ReallyDelete">Really Delete This?</string>
+	<string name="VisitList_Yes">Yes</string>
+	<string name="VisitList_No">No</string>
+	<string name="VisitList_Empty">No Visits</string>
+	
+	<!-- Temperature Type List -->
+	<string name="TemperatureTypeList_Title">Temperature Type List</string>
+	<string name="TemperatureTypeList_AddMenu">New</string>
+	<string name="TemperatureTypeList_DeleteMenu">Delete</string>
+	<string name="TemperatureTypeList_EditMenu">Edit</string>
+	<string name="TemperatureTypeList_NotesMenu">Delete</string>
+	<string name="TemperatureTypeList_EmptyText">Use the Menu key to access the New menu, or context menus for items</string>
+	<string name="TemperatureTypeList_ReallyDelete">Really Delete This?</string>
+	<string name="TemperatureTypeList_Yes">Yes</string>
+	<string name="TemperatureTypeList_No">No</string>
+	
+	<!--  Temperature Type Editor -->
+	<string name="TemperatureTypeEditor_Title">Client Note Type Editor</string>
+	<string name="TemperatureTypeEditor_SaveMenu">Save</string>
+	<string name="TemperatureTypeEditor_CancelMenu">Cancel</string>
+	<string name="TemperatureTypeEditor_DeleteMenu">Delete</string>
+	<string name="TemperatureTypeEditor_ReallyDelete">Really Delete This?</string>
+	<string name="TemperatureTypeEditor_Yes">Yes</string>
+	<string name="TemperatureTypeEditor_No">No</string>
+	<string name="hello">Who Are You?</string>
+	<string name="app_name">DBExample</string>
+	<string name="title_provider">Mr Provider Head</string>
+	<string name="service_label">DBExample Service</string>
+	<string name="provider_label">DBExample Content Provider</string>
+	<string name="ping_service_description">example of an IntentService being used on the back end of a content provider</string>
+	
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center"
+	android:text="RSL Quicklinks/Test Screen"
+	/>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnClients"
+			android:text="Clients">
+		</Button>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnNoteTypes"
+			android:text="Client Note Types">
+		</Button>  
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnTempTypes"
+			android:text="Temperature Types">
+		</Button>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnPing"
+			android:text="Ping">
+		</Button>
+	</LinearLayout>
+</LinearLayout>
