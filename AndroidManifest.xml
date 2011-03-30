@@ -10,10 +10,10 @@
 		android:name=".DBExampleApplication">
         <activity android:name=".activities.ClientEditor" />
         <activity android:name=".activities.ClientList">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
         </activity>
         <activity android:name=".activities.ClientNoteEditor" />
         <activity android:name=".activities.ClientNotes" />
@@ -35,6 +35,8 @@
         <activity android:name=".activities.BPEditor" />
         <activity android:name=".activities.PulseEditor" />
         <activity android:name=".activities.WeightEditor" />
+        <activity android:name=".activities.Ping">
+        </activity>
 		<activity android:name=".activities.VisitList" />
 		<service android:name=".PingService"
 	    	android:label="@string/service_label" 

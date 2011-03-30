@@ -40,7 +40,7 @@ public class PingService extends IntentService {
     
 	public PingService() {
 		super("PingService");
-		setIntentRedelivery(true);
+		// setIntentRedelivery(true);
 	}
 	
 	@Override
@@ -123,20 +123,10 @@ public class PingService extends IntentService {
 	}
 
 	public int performPing(InetAddress addy, int port, int timeout) throws IOException {
-		Socket socket = null;
 		int success = 0;
 		long start = System.currentTimeMillis();
 		try {
-			socket = new Socket(addy, port);
 			Thread.sleep(1000);
-		} catch (IllegalArgumentException e) {
-			e.printStackTrace();
-			Log.e(TAG, "Illegal Argument Exception");
-			success = PingRecord.STATUS_ILLEGAL_ARGUMENT;
-		} catch (IOException e) {
-			e.printStackTrace();
-			Log.e(TAG, "IOException", e);
-			success = PingRecord.STATUS_IO_EXCEPTION;
 		} catch (InterruptedException e) {
 			success = -1000;
 			e.printStackTrace();
@@ -144,10 +134,7 @@ public class PingService extends IntentService {
 			long end = System.currentTimeMillis();
 			long delta = end - start;
 			Log.i(TAG, "Ping took: " + String.valueOf(delta) + " milliseconds");
-			if(socket != null) {
-				socket.close();
-				success = 1;
-			}
+			success = 1;
 		}
 		return success;
 	}
