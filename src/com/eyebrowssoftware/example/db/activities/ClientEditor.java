@@ -1,7 +1,5 @@
 package com.eyebrowssoftware.example.db.activities;
 
-import java.security.acl.Group;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -17,8 +15,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 
 import com.eyebrowssoftware.example.db.ClientRecords;
-import com.eyebrowssoftware.example.db.R;
 import com.eyebrowssoftware.example.db.ClientRecords.ClientRecord;
+import com.eyebrowssoftware.example.db.R;
 
 
 public class ClientEditor extends Activity {
