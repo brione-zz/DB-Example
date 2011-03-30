@@ -3,7 +3,6 @@ package com.eyebrowssoftware.example.db;
 import java.io.IOException;
 import java.net.Inet4Address;
 import java.net.InetAddress;
-import java.net.Socket;
 import java.net.UnknownHostException;
 
 import android.app.IntentService;
