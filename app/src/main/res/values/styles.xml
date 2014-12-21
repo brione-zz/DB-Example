@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Used for list text and editor text -->
+	<style name="dbex_text">
+		<item name="android:padding">2dp</item>
+	</style>
+
+	<!-- Used for label text -->
+	<style name="dbex_label">
+		<item name="android:textStyle">bold</item>
+		<item name="android:padding">2dp</item>
+	</style>
+
+	<!-- Style for the TextView that's shown when the list is empty  -->
+	<style name="empty_list_view">
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:padding">6dp</item>
+	</style>
+	
+	<style name="dbex_list_header">
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+	</style>
+
+	<style name="dbex_list_item">
+		<item name="android:padding">4dp</item>
+	</style>
+
+	<style name="dbex_spinner_item">
+		<item name="android:singleLine">true</item>
+		<item name="android:padding">4dp</item>
+	</style>
+
+	<style name="dbex_send_to_group">
+		<item name="android:padding">4dp</item>
+	</style>
+
+	<style name="dbex_send_from_group">
+		<item name="android:padding">4dp</item>
+	</style>
+	
+</resources>

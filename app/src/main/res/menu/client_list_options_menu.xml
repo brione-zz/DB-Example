@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/add_menu" android:title="@string/ClientList_AddMenu" android:showAsAction="ifRoom"/>
+	<item android:id="@+id/notes_menu" android:title="@string/ClientList_NotesMenu"  android:showAsAction="ifRoom"/>
+	<item android:id="@+id/visits_menu" android:title="@string/ClientList_VisitsMenu"  android:showAsAction="ifRoom"/>
+</menu>
