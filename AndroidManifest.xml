@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.eyebrowssoftware.example.db"
-      android:versionCode="1"
-      android:versionName="1.0">
+    package="com.eyebrowssoftware.example.db"
+    android:versionCode="1"
+    android:versionName="1.0"
+>
     <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="4"></uses-sdk>
     <application
         android:icon="@drawable/icon"
@@ -12,10 +13,10 @@
     >
         <activity android:name=".activities.ClientEditor" />
         <activity android:name=".activities.ClientList">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
         </activity>
         <activity android:name=".activities.ClientNoteEditor" />
         <activity android:name=".activities.ClientNotes" />
@@ -37,17 +38,15 @@
         <activity android:name=".activities.BPEditor" />
         <activity android:name=".activities.PulseEditor" />
         <activity android:name=".activities.WeightEditor" />
-        <activity android:name=".activities.VisitList" />
-        <service android:name=".PingService"
-            android:label="@string/service_label"
-            android:icon="@drawable/icon"
-        android:description="@string/ping_service_description"/>
-        <provider android:name=".PCProvider"
-            android:label="@string/provider_label"
-            android:authorities="com.eyebrowssoftware.example.db.provider"
-            android:icon="@drawable/icon"
-            android:exported="false"
-        />
-
+        <activity android:name=".activities.Ping" />
+		<activity android:name=".activities.VisitList" />
+		<service android:name=".PingService"
+	    	android:label="@string/service_label" 
+	    	android:icon="@drawable/icon"
+	    android:description="@string/ping_service_description"/>
+	    <provider android:name=".PCProvider"
+	    	android:label="@string/provider_label"
+	    	android:authorities="com.eyebrowssoftware.example.db.provider"
+	    android:icon="@drawable/icon"/>
     </application>
 </manifest>

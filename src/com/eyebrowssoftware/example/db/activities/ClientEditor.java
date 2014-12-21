@@ -15,8 +15,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 
 import com.eyebrowssoftware.example.db.ClientRecords;
-import com.eyebrowssoftware.example.db.R;
 import com.eyebrowssoftware.example.db.ClientRecords.ClientRecord;
+import com.eyebrowssoftware.example.db.R;
 
 
 public class ClientEditor extends Activity {
