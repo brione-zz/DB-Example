@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<group android:id="@+id/group_edit">
+		<item android:id="@+id/revert" android:title="@string/revert" android:showAsAction="ifRoom" />
+		<item android:id="@+id/delete" android:title="@string/delete" android:showAsAction="ifRoom" />
+	</group>
+    <group android:id="@+id/group_insert" android:visible="false" >
+    	<item android:id="@+id/cancel" android:title="@string/cancel" android:showAsAction="ifRoom" />
+    </group>
+</menu>
