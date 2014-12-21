@@ -3,11 +3,13 @@
       package="com.eyebrowssoftware.example.db"
       android:versionCode="1"
       android:versionName="1.0">
-    <uses-sdk android:targetSdkVersion="11" android:minSdkVersion="4"></uses-sdk>
-	<application 
-		android:icon="@drawable/icon" 
-		android:label="@string/app_name" 
-		android:name=".DBExampleApplication">
+    <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="4"></uses-sdk>
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:name=".DBExampleApplication"
+        android:allowBackup="false"
+    >
         <activity android:name=".activities.ClientEditor" />
         <activity android:name=".activities.ClientList">
             <intent-filter>
@@ -35,15 +37,17 @@
         <activity android:name=".activities.BPEditor" />
         <activity android:name=".activities.PulseEditor" />
         <activity android:name=".activities.WeightEditor" />
-		<activity android:name=".activities.VisitList" />
-		<service android:name=".PingService"
-	    	android:label="@string/service_label" 
-	    	android:icon="@drawable/icon"
-	    android:description="@string/ping_service_description"/>
-	    <provider android:name=".PCProvider"
-	    	android:label="@string/provider_label"
-	    	android:authorities="com.eyebrowssoftware.example.db.provider"
-	    android:icon="@drawable/icon"/>
+        <activity android:name=".activities.VisitList" />
+        <service android:name=".PingService"
+            android:label="@string/service_label"
+            android:icon="@drawable/icon"
+        android:description="@string/ping_service_description"/>
+        <provider android:name=".PCProvider"
+            android:label="@string/provider_label"
+            android:authorities="com.eyebrowssoftware.example.db.provider"
+            android:icon="@drawable/icon"
+            android:exported="false"
+        />
 
     </application>
 </manifest>

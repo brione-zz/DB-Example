@@ -1,7 +1,5 @@
 package com.eyebrowssoftware.example.db.activities;
 
-import java.security.acl.Group;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
